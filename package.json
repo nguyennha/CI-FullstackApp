@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test-lint": "eslint ."
-  },
+	 "scripts": {
+	  "lint-content": "eslint ."
+	}
+
   "keywords": [],
   "author": "",
   "license": "ISC"
