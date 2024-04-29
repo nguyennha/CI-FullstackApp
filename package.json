@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-	 "scripts": {
-	  "lint-content": "eslint ."
-	}
-
+  "scripts": {
+    "lint-content": "eslint ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
