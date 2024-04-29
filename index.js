@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 const moment = require('moment');
-const myVariable = 'Hello World'; 
+ 
 try {
   const name = core.getInput('name');
   console.log(`Hello, ${name}. We appreciate your business!`);

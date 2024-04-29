@@ -50,9 +50,8 @@ jobs:
         run: npm run build && npm run test
         continue-on-error: true
     
-     # Run the linter.
-      - name: Run lint
-        run: npm run lint-content
+     # Run the linter. 
+      - run: cd backend && npm run lint
       
       # Send a console message at completion.
       - run: |
