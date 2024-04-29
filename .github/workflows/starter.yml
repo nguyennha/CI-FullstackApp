@@ -51,10 +51,7 @@ jobs:
         continue-on-error: true
       
        - name: Run eslint 
-       run: npm install eslint --save-dev
-      
-      - name: Run mocha 
-       run:  npm install --save-dev mocha
+       run: npm install eslint --save-dev 
    # Run the linter.
       - name: Run lint
         run: npm run test-lint
