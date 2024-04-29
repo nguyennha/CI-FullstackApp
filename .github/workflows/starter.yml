@@ -51,7 +51,7 @@ jobs:
         continue-on-error: true
       
      
-   # Run the linter.
+      # Run the linter.
       - name: Run lint
         run: npm run lint-content
       
