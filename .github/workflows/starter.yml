@@ -33,7 +33,7 @@ jobs:
         exclude:
           - platform: macos-latest
             node-version: 16
-            fail-fast: false
+      fail-fast: false
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -51,8 +51,8 @@ jobs:
         continue-on-error: true
     
    # Run the linter.
-      - name: Run ESLint
-        run: npx eslint .
+      - name: Run lint
+        run: npm run lint-content
       
          # Send a console message at completion.
       - run: |
