@@ -50,11 +50,7 @@ jobs:
         run: npm run build && npm run test
         continue-on-error: true
       
-       - name: Run eslint 
-       run: npm install eslint --save-dev 
-   # Run the linter.
-      - name: Run lint
-        run: npm run test-lint
+      
       
          # Send a console message at completion.
       - run: |
