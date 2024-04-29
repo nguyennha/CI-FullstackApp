@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.32.0" // Update the version number to match your preference
+    "eslint": "^7.32.0"  
   }
 }
