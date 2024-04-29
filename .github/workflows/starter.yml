@@ -56,5 +56,5 @@ jobs:
         run: npm run lint-content
       
          # Send a console message at completion.
-      - run: |
-        echo  "Hello $USER. You pushed to $GITHUB_REPOSITORY at $(date) ."
+        - run: |
+            echo  "Hello $USER. You pushed to $GITHUB_REPOSITORY at $(date) ."
